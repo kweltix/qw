@@ -1,0 +1,521 @@
+[
+  {
+    "id": "super-slims",
+    "name": "Super Slims",
+    "pages": [
+      1,
+      4
+    ],
+    "expected": 19,
+    "products": [
+      {
+        "brand": "MILANO",
+        "name": "Blue",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 1
+      },
+      {
+        "brand": "MILANO",
+        "name": "Silver",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 1
+      },
+      {
+        "brand": "MILANO",
+        "name": "Green",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 1,
+        "filter": "Ментоловый фильтр"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Duo Effect",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 1,
+        "filter": "Двухкапсульный фильтр",
+        "capsules": "Яблочно-мятная и ментоловая капсулы"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Rosso",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 1,
+        "flavour": "Ароматизированный табак - вишня"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Bruno",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 2,
+        "flavour": "Ароматизированный табак - шоколад"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vento",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 2,
+        "flavour": "Ароматизированный табак - красный виноград"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Variance",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 2,
+        "filter": "Однокапсульный фильтр",
+        "capsules": "Яблочная + мятная капсула"
+      },
+      {
+        "brand": "MILANO",
+        "name": "X-Change Summer",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 2,
+        "filter": "Однокапсульный фильтр",
+        "capsules": "Арбузная + мятная капсула"
+      },
+      {
+        "brand": "MILANO",
+        "name": "X-Change Winter",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 2,
+        "filter": "Однокапсульный фильтр",
+        "capsules": "Яблочная + мятная капсула"
+      },
+      {
+        "brand": "MILANO",
+        "name": "X-Change Amber",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 3,
+        "filter": "Однокапсульный фильтр",
+        "capsules": "Капсула манго"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Retro Brown",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 3,
+        "filter": "TUBE",
+        "flavour": "Кофе"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Retro Red",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 3,
+        "filter": "TUBE",
+        "flavour": "Вишня"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Brown Diamond",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 3,
+        "flavour": "Ароматизированный табак - кофе"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Red Diamond",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 3,
+        "flavour": "Ароматизированный табак - вишня"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Gold Diamond",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 4,
+        "flavour": "Ароматизированный табак - ваниль"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Sync",
+        "tar": "6",
+        "nicotine": "0,6",
+        "sourcePage": 4,
+        "filter": "Однокапсульный фильтр",
+        "capsules": "Яблочно-мятная капсула"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Blue Wings",
+        "tar": "6",
+        "nicotine": "0,6",
+        "sourcePage": 4
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Silver Wings",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 4
+      }
+    ]
+  },
+  {
+    "id": "king-size",
+    "name": "King Size",
+    "pages": [
+      5,
+      5
+    ],
+    "expected": 5,
+    "products": [
+      {
+        "brand": "MILANO",
+        "name": "Blue",
+        "tar": "6",
+        "nicotine": "0,6",
+        "sourcePage": 5,
+        "filter": "TUBE"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Original",
+        "tar": "8",
+        "nicotine": "0,8",
+        "sourcePage": 5
+      },
+      {
+        "brand": "MILANO",
+        "name": "Classic",
+        "tar": "10",
+        "nicotine": "1",
+        "sourcePage": 5
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vintage Red",
+        "tar": "8",
+        "nicotine": "0,6",
+        "sourcePage": 5,
+        "filter": "TUBE",
+        "flavour": "Насыщенный вишнёвый вкус"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vintage Brown",
+        "tar": "8",
+        "nicotine": "0,6",
+        "sourcePage": 5,
+        "filter": "TUBE",
+        "flavour": "Насыщенный кофейный вкус с нотками шоколада"
+      }
+    ]
+  },
+  {
+    "id": "nano",
+    "name": "Nano",
+    "pages": [
+      6,
+      9
+    ],
+    "expected": 17,
+    "products": [
+      {
+        "brand": "MILANO",
+        "name": "Odyssey Gold",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 6
+      },
+      {
+        "brand": "MILANO",
+        "name": "Odyssey Black",
+        "tar": "6",
+        "nicotine": "0,6",
+        "sourcePage": 6
+      },
+      {
+        "brand": "MILANO",
+        "name": "Odyssey Green",
+        "tar": "3",
+        "nicotine": "0,3",
+        "sourcePage": 6
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vintage Red",
+        "tar": "6",
+        "nicotine": "0,4",
+        "sourcePage": 6,
+        "filter": "TUBE",
+        "flavour": "Насыщенный вишнёвый вкус"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vintage Brown",
+        "tar": "6",
+        "nicotine": "0,4",
+        "sourcePage": 6,
+        "filter": "TUBE",
+        "flavour": "Насыщенный кофейный вкус с нотками шоколада"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Dubai",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 7,
+        "filter": "TUBE"
+      },
+      {
+        "brand": "MILANO",
+        "name": "New York",
+        "tar": "6",
+        "nicotine": "0,6",
+        "sourcePage": 7
+      },
+      {
+        "brand": "MILANO",
+        "name": "Paris",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 7
+      },
+      {
+        "brand": "MILANO",
+        "name": "Geneva",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 7,
+        "filter": "Ментоловый фильтр"
+      },
+      {
+        "brand": "MILANO",
+        "name": "London",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 7
+      },
+      {
+        "brand": "MILANO",
+        "name": "Eject",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 8,
+        "filter": "Двухкапсульный фильтр",
+        "capsules": "Черника + ментол"
+      },
+      {
+        "brand": "MILANO",
+        "name": "London Purple",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 8,
+        "filter": "Однокапсульный фильтр TUBE",
+        "capsules": "Черника"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vispo",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 8,
+        "filter": "Однокапсульный фильтр TUBE",
+        "capsules": "Арбуз"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Clip & Go",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 8,
+        "filter": "Однокапсульный фильтр TUBE",
+        "capsules": "Черника"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "By Philippe Andre",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 8
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "By Gino Ferrara",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 9
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "By Tony Frank",
+        "tar": "6",
+        "nicotine": "0,6",
+        "sourcePage": 9
+      }
+    ]
+  },
+  {
+    "id": "compact",
+    "name": "Compact",
+    "pages": [
+      10,
+      13
+    ],
+    "expected": 19,
+    "products": [
+      {
+        "brand": "MILANO",
+        "name": "Classic",
+        "tar": "10",
+        "nicotine": "1",
+        "sourcePage": 10
+      },
+      {
+        "brand": "MILANO",
+        "name": "Skyline",
+        "tar": "4",
+        "nicotine": "0,4",
+        "sourcePage": 10
+      },
+      {
+        "brand": "MILANO",
+        "name": "Night Blinks",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 10
+      },
+      {
+        "brand": "MILANO",
+        "name": "Furious Red",
+        "tar": "8",
+        "nicotine": "0,8",
+        "sourcePage": 10
+      },
+      {
+        "brand": "MILANO",
+        "name": "Urban Mirage",
+        "tar": "3",
+        "nicotine": "0,3",
+        "sourcePage": 10
+      },
+      {
+        "brand": "MILANO",
+        "name": "Fizz",
+        "tar": "4",
+        "nicotine": "0,5",
+        "sourcePage": 11,
+        "filter": "Двухкапсульный фильтр",
+        "capsules": "Перечная мята и ментол"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vero",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 11,
+        "filter": "TUBE"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Bravo",
+        "tar": "8",
+        "nicotine": "0,8",
+        "sourcePage": 11,
+        "filter": "TUBE"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Rosso",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 11,
+        "flavour": "Ароматизированный табак - вишня"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Vento",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 11,
+        "flavour": "Ароматизированный табак - красный виноград"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Bruno",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 12,
+        "flavour": "Ароматизированный табак - шоколад"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Retro Brown",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 12,
+        "filter": "TUBE",
+        "flavour": "Кофе"
+      },
+      {
+        "brand": "MILANO",
+        "name": "Retro Red",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 12,
+        "filter": "TUBE",
+        "flavour": "Вишня"
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Black Velvet",
+        "tar": "5",
+        "nicotine": "0,5",
+        "sourcePage": 12
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Ocean",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 12
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Vulcano Red",
+        "tar": "8",
+        "nicotine": "0,8",
+        "sourcePage": 13
+      },
+      {
+        "brand": "CAVALLO",
+        "name": "Twin Ball",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 13,
+        "filter": "Двухкапсульный фильтр",
+        "capsules": "Черника + ментол"
+      },
+      {
+        "brand": "MOND",
+        "name": "Red / Queen edition",
+        "tar": "8",
+        "nicotine": "0,8",
+        "sourcePage": 13
+      },
+      {
+        "brand": "MOND",
+        "name": "Blue / Queen edition",
+        "tar": "5",
+        "nicotine": "0,4",
+        "sourcePage": 13
+      }
+    ]
+  }
+]
