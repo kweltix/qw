@@ -1,18 +1,8 @@
 'use strict';
-const search=document.querySelector('#search');
-const clear=document.querySelector('#clear');
-const cards=[...document.querySelectorAll('.product')];
-const sections=[...document.querySelectorAll('.format')];
-document.querySelector('.search').hidden=false;
-function filter(){
- const terms=search.value.trim().toLocaleLowerCase('ru').split(/\s+/).filter(Boolean);
- let count=0;
- for(const card of cards){card.hidden=!terms.every(term=>card.dataset.search.includes(term));if(!card.hidden)count++;}
- for(const section of sections){const n=[...section.querySelectorAll('.product')].filter(x=>!x.hidden).length;section.hidden=n===0;section.querySelector('.section-heading>span').textContent=n+' позиций';}
- document.querySelector('#results').textContent=terms.length?'Найдено позиций: '+count+' из '+cards.length:'';
- document.querySelector('#empty').hidden=count!==0;
- clear.hidden=!search.value;
-}
-search.addEventListener('input',filter);
-clear.addEventListener('click',()=>{search.value='';filter();search.focus();});
-document.querySelectorAll('nav a').forEach(link=>link.addEventListener('click',()=>{if(search.value){search.value='';filter();}}));
+const search=document.querySelector('#search'),brand=document.querySelector('#brand'),format=document.querySelector('#format'),clear=document.querySelector('#clear');
+const cards=[...document.querySelectorAll('.product')],sections=[...document.querySelectorAll('.format')],results=document.querySelector('#results');
+document.querySelector('.catalog-tools').hidden=false;
+function label(n){const a=n%10,b=n%100;return n+' '+(a===1&&b!==11?'позиция':a>=2&&a<=4&&(b<12||b>14)?'позиции':'позиций');}
+function filter(){const terms=search.value.trim().toLocaleLowerCase('ru').split(/\s+/).filter(Boolean);let count=0;for(const section of sections){let n=0;for(const card of section.querySelectorAll('.product')){card.hidden=!!((format.value&&section.id!==format.value)||(brand.value&&card.dataset.brand!==brand.value)||!terms.every(term=>card.dataset.search.includes(term)));if(!card.hidden){n++;count++;}}section.hidden=n===0;section.querySelector('.section-heading>span:last-child').textContent=label(n);}results.textContent='Показано '+count+' из '+cards.length;document.querySelector('#empty').hidden=count!==0;clear.hidden=!search.value&&!brand.value&&!format.value;}
+function reset(){search.value='';brand.value='';format.value='';filter();}
+search.addEventListener('input',filter);brand.addEventListener('change',filter);format.addEventListener('change',filter);clear.addEventListener('click',()=>{reset();search.focus();});document.querySelector('#empty-reset').addEventListener('click',()=>{reset();search.focus();});document.querySelector('form').addEventListener('submit',event=>event.preventDefault());document.querySelectorAll('.format-nav a').forEach(link=>link.addEventListener('click',()=>reset()));filter();
